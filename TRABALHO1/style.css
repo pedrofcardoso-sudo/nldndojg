@@ -1,0 +1,173 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Cabeçalho e Menu */
+header {
+  background: #000000;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #079b76c5;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff0000;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  text-align: center;
+  margin: 20px 0;
+  color: #222;
+}
+
+.centralizado {
+  text-align: center;
+  font-size: 2em;
+  color: #444;
+}
+
+/* Parágrafos */
+p {
+  margin: 15px 0;
+  text-align: justify;
+}
+
+/* Imagem de entrada */
+.entrada {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Listas */
+ul, ol, dl {
+  margin: 20px auto;
+  width: 60%;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+dl dt {
+  font-weight: bold;
+  color: #000;
+}
+
+dl dd {
+  margin-bottom: 10px;
+}
+
+/* Tabelas */
+table {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background: #444;
+  color: #fff;
+}
+
+/* Imagens da galeria */
+img {
+  margin: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Vídeo e áudio */
+video, audio {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Formulário */
+form {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+fieldset {
+  border: 2px solid #444;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color: #444;
+}
+
+input, textarea, select {
+  margin: 10px 0;
+  padding: 8px;
+  width: 95%;
+}
+
+button, input[type="submit"], input[type="reset"] {
+  background: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+  background: #ff0000;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background: #000;
+  color: #fff;
+}

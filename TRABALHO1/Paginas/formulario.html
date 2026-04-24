@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Preferências</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulário BMW e Audi</h1>
+
+  <form>
+    <fieldset>
+      <legend>Escolha suas preferências</legend>
+
+      Nome: <input type="text" name="nome"><br><br>
+      Email: <input type="email" name="email"><br><br>
+      Idade: <input type="number" name="idade"><br><br>
+
+      <label>Marca favorita:</label><br>
+      <input type="radio" name="marca" value="BMW" required> BMW<br>
+      <input type="radio" name="marca" value="Audi"> Audi<br><br>
+
+      <label>Modelos preferidos:</label><br>
+      <input type="checkbox" name="bmw" value="Série 3"> BMW Série 3<br>
+      <input type="checkbox" name="bmw" value="X5"> BMW X5<br>
+      <input type="checkbox" name="audi" value="A4"> Audi A4<br>
+      <input type="checkbox" name="audi" value="Q7"> Audi Q7<br><br>
+
+      Cor favorita: <input type="color" name="cor"><br><br>
+      Data de compra: <input type="date" name="data"><br><br>
+      Comentários:<br>
+      </body>
+</html>
+      <textarea name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+      <input type="submit" value="Enviar">
+      <input type="submit" name="limpar" value="Limpar">
+    </fieldset>
+  </form>
+
+  <a href="../index.html">Voltar ao Início</a>
